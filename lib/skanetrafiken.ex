@@ -2,8 +2,8 @@ defmodule Skanetrafiken do
   alias Skanetrafiken.Parser
 
   def search_times(station) do
-    with %{body: body} <-
-           HTTPotion.get(
+    with {:ok, %{body: body}} <-
+           HTTPoison.get(
              "http://www.labs.skanetrafiken.se/v2.2/stationresults.asp?selPointFrKey=#{
                to_point_id(station)
              }"
@@ -13,8 +13,8 @@ defmodule Skanetrafiken do
   end
 
   def search_station(term) do
-    with %{body: body} <-
-           HTTPotion.get(
+    with {:ok, %{body: body}} <-
+           HTTPoison.get(
              "http://www.labs.skanetrafiken.se/v2.2/querystation.asp?inpPointfr=#{term}"
            ) do
       Parser.parse_getstartendpointresult(body)

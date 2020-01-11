@@ -23,7 +23,7 @@ defmodule Skanetrafiken.MixProject do
     [
       {:mix_test_watch, ">= 0.0.0", runtime: false, only: :dev},
       {:sweet_xml, "~> 0.6"},
-      {:httpotion, "~> 3.1"}
+      {:httpoison, "~> 1.6"}
     ]
   end
 end
