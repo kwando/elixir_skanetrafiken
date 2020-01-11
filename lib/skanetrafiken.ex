@@ -23,32 +23,32 @@ defmodule Skanetrafiken do
 
   defmodule Line do
     defstruct [
-      :Name,
-      :No,
-      :StopPoint,
-      :Towards,
-      :JourneyDateTime,
-      :Realtime,
-      :Deviations,
-      :IsTimingPoint,
-      :RunNo,
-      :LineTypeId,
-      :LineTypeName
+      :name,
+      :no,
+      :stopPoint,
+      :towards,
+      :journeyDateTime,
+      :realtime,
+      :deviations,
+      :isTimingPoint,
+      :runNo,
+      :lineTypeId,
+      :lineTypeName
     ]
   end
 
   defmodule RealtimeInfo do
-    defstruct [:NewDepPoint, :DepTimeDeviation, :DepDeviationAffect]
+    defstruct [:newDepPoint, :depTimeDeviation, :depDeviationAffect]
   end
 
   defmodule Deviation do
-    defstruct [:PublicNote, :Header, :Summary, :ShortText, :Importance, :Influence, :Urgency]
+    defstruct [:publicNote, :header, :summary, :shortText, :importance, :influence, :urgency]
   end
 
   defmodule Point do
-    defstruct [:Id, :Name, :Type, :X, :Y]
+    defstruct [:id, :name, :type, :x, :y]
   end
 
-  defp to_point_id(%Point{Id: id}), do: id
+  defp to_point_id(%Point{id: id}), do: id
   defp to_point_id(value) when is_binary(value) or is_number(value), do: value
 end
