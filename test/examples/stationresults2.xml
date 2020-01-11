@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetDepartureArrivalResponse xmlns="http://www.etis.fskab.se/v1.0/ETISws">
+            <GetDepartureArrivalResult>
+                <Code>0</Code>
+                <Message />
+                <Lines>
+                    <Line>
+                        <Name>100</Name>
+                        <No>100</No>
+                        <JourneyDateTime>2020-01-11T11:22:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>I</StopPoint>
+                        <LineTypeId>1</LineTypeId>
+                        <LineTypeName>Regionbuss</LineTypeName>
+                        <Towards>Falsterbo</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> I</NewDepPoint>
+                                <DepTimeDeviation>1</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>163</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>5</Name>
+                        <No>5</No>
+                        <JourneyDateTime>2020-01-11T11:23:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>D</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Västra hamnen via Dockan</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> D</NewDepPoint>
+                                <DepTimeDeviation>1</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations>
+                            <Deviation>
+                                <DeviationScopes>
+                                    <DeviationScope>
+                                        <ScopeAttribute>CONCERNS_ARRIVAL</ScopeAttribute>
+                                        <FromDateTime>2020-01-10T07:00:00</FromDateTime>
+                                        <ToDateTime>2020-01-31T15:00:00</ToDateTime>
+                                    </DeviationScope>
+                                </DeviationScopes>
+                                <PublicNote>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Sten</PublicNote>
+                                <Header>Stängd hållplats Malmö C läge D</Header>
+                                <Details />
+                                <Summary>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Stenkällan blir Anna Lindhs plats läge B. </Summary>
+                                <ShortText>Bussen stannar ej vid Malmö C pga vägarbete. Hänvisning till övr. hpl.
+Gäller 2020-01-10 kl 7:00 - 2020-01-31 kl 15:00.</ShortText>
+                                <Importance>3</Importance>
+                                <Influence>3</Influence>
+                                <Urgency>1</Urgency>
+                                <WebLinks />
+                            </Deviation>
+                        </Deviations>
+                        <RunNo>408</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>7</Name>
+                        <No>7</No>
+                        <JourneyDateTime>2020-01-11T11:23:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>D</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Ön</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> D</NewDepPoint>
+                                <DepTimeDeviation>2</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>293</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>Pågatåg</Name>
+                        <No>815</No>
+                        <JourneyDateTime>2020-01-11T11:23:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint />
+                        <LineTypeId>32</LineTypeId>
+                        <LineTypeName>Pågatågen</LineTypeName>
+                        <Towards>Helsingborg C</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint>3a</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>1530</TrainNo>
+                        <Deviations />
+                        <RunNo>530</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>3</Name>
+                        <No>3</No>
+                        <JourneyDateTime>2020-01-11T11:24:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Ringlinjen via Värnhem</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> C</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>322</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>8</Name>
+                        <No>8</No>
+                        <JourneyDateTime>2020-01-11T11:24:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Lindängen via Gustav Adolfs torg</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> C</NewDepPoint>
+                                <DepTimeDeviation>2</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>378</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>141</Name>
+                        <No>141</No>
+                        <JourneyDateTime>2020-01-11T11:25:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>H</StopPoint>
+                        <LineTypeId>1</LineTypeId>
+                        <LineTypeName>Regionbuss</LineTypeName>
+                        <Towards>Svedala</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> H</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>95</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>3</Name>
+                        <No>3</No>
+                        <JourneyDateTime>2020-01-11T11:26:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>D</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Ringlinjen via Erikslust</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> D</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>329</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>5</Name>
+                        <No>5</No>
+                        <JourneyDateTime>2020-01-11T11:26:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>A</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Stenkällan via Rosengård</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> A</NewDepPoint>
+                                <DepTimeDeviation>5</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations>
+                            <Deviation>
+                                <DeviationScopes>
+                                    <DeviationScope>
+                                        <ScopeAttribute>CONCERNS_ARRIVAL</ScopeAttribute>
+                                        <FromDateTime>2020-01-10T07:00:00</FromDateTime>
+                                        <ToDateTime>2020-01-31T15:00:00</ToDateTime>
+                                    </DeviationScope>
+                                </DeviationScopes>
+                                <PublicNote>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Sten</PublicNote>
+                                <Header>Stängd hållplats Malmö C läge D</Header>
+                                <Details />
+                                <Summary>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Stenkällan blir Anna Lindhs plats läge B. </Summary>
+                                <ShortText>Bussen stannar ej vid Malmö C pga vägarbete. Hänvisning till övr. hpl.
+Gäller 2020-01-10 kl 7:00 - 2020-01-31 kl 15:00.</ShortText>
+                                <Importance>3</Importance>
+                                <Influence>3</Influence>
+                                <Urgency>1</Urgency>
+                                <WebLinks />
+                            </Deviation>
+                        </Deviations>
+                        <RunNo>407</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>4</Name>
+                        <No>4</No>
+                        <JourneyDateTime>2020-01-11T11:28:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>E</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Bunkeflostrand via Limhamn</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> E</NewDepPoint>
+                                <DepTimeDeviation>2</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>340</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>4</Name>
+                        <No>4</No>
+                        <JourneyDateTime>2020-01-11T11:28:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Bernstorp direkt Värnhem</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> C</NewDepPoint>
+                                <DepTimeDeviation>3</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>339</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>7</Name>
+                        <No>7</No>
+                        <JourneyDateTime>2020-01-11T11:28:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>A</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Svågertorp via Gustav Adolfs torg</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> A</NewDepPoint>
+                                <DepTimeDeviation>1</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>292</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>172</Name>
+                        <No>172</No>
+                        <JourneyDateTime>2020-01-11T11:28:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>H</StopPoint>
+                        <LineTypeId>1</LineTypeId>
+                        <LineTypeName>Regionbuss</LineTypeName>
+                        <Towards>Genarp via Arlöv och Staffanstorp</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>65</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>Öresundståg</Name>
+                        <No>802</No>
+                        <JourneyDateTime>2020-01-11T11:28:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint />
+                        <LineTypeId>128</LineTypeId>
+                        <LineTypeName>Öresundståg</LineTypeName>
+                        <Towards>Karlskrona</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint>4a</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>1040</TrainNo>
+                        <Deviations />
+                        <RunNo>40</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>Pågatåg</Name>
+                        <No>812</No>
+                        <JourneyDateTime>2020-01-11T11:28:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint />
+                        <LineTypeId>32</LineTypeId>
+                        <LineTypeName>Pågatågen</LineTypeName>
+                        <Towards>Malmö Hyllie</Towards>
+                        <FootNotes>
+                            <FootNote>
+                                <Index>D</Index>
+                                <Text>1 maj-21 november är tågets slutstation Lund C.</Text>
+                            </FootNote>
+                        </FootNotes>
+                        <RealTime />
+                        <TrainNo>1215</TrainNo>
+                        <Deviations />
+                        <RunNo>215</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>8</Name>
+                        <No>8</No>
+                        <JourneyDateTime>2020-01-11T11:31:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>E</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Hyllie</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> E</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>371</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>Pågatåg</Name>
+                        <No>812</No>
+                        <JourneyDateTime>2020-01-11T11:31:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint />
+                        <LineTypeId>32</LineTypeId>
+                        <LineTypeName>Pågatågen</LineTypeName>
+                        <Towards>Kristianstad C</Towards>
+                        <FootNotes>
+                            <FootNote>
+                                <Index>I</Index>
+                                <Text>1 maj-21 november är tågets utgångsstation Lund C.</Text>
+                            </FootNote>
+                        </FootNotes>
+                        <RealTime />
+                        <TrainNo>1216</TrainNo>
+                        <Deviations />
+                        <RunNo>216</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>5</Name>
+                        <No>5</No>
+                        <JourneyDateTime>2020-01-11T11:33:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>D</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Västra hamnen via Dockan</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> D</NewDepPoint>
+                                <DepTimeDeviation>2</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations>
+                            <Deviation>
+                                <DeviationScopes>
+                                    <DeviationScope>
+                                        <ScopeAttribute>CONCERNS_ARRIVAL</ScopeAttribute>
+                                        <FromDateTime>2020-01-10T07:00:00</FromDateTime>
+                                        <ToDateTime>2020-01-31T15:00:00</ToDateTime>
+                                    </DeviationScope>
+                                </DeviationScopes>
+                                <PublicNote>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Sten</PublicNote>
+                                <Header>Stängd hållplats Malmö C läge D</Header>
+                                <Details />
+                                <Summary>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Stenkällan blir Anna Lindhs plats läge B. </Summary>
+                                <ShortText>Bussen stannar ej vid Malmö C pga vägarbete. Hänvisning till övr. hpl.
+Gäller 2020-01-10 kl 7:00 - 2020-01-31 kl 15:00.</ShortText>
+                                <Importance>3</Importance>
+                                <Influence>3</Influence>
+                                <Urgency>1</Urgency>
+                                <WebLinks />
+                            </Deviation>
+                        </Deviations>
+                        <RunNo>410</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>7</Name>
+                        <No>7</No>
+                        <JourneyDateTime>2020-01-11T11:33:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>D</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Ön</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> D</NewDepPoint>
+                                <DepTimeDeviation>1</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>295</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>Öresundståg</Name>
+                        <No>802</No>
+                        <JourneyDateTime>2020-01-11T11:33:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint />
+                        <LineTypeId>128</LineTypeId>
+                        <LineTypeName>Öresundståg</LineTypeName>
+                        <Towards>Helsingør</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint>2b</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>1049</TrainNo>
+                        <Deviations />
+                        <RunNo>49</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>3</Name>
+                        <No>3</No>
+                        <JourneyDateTime>2020-01-11T11:34:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Ringlinjen via Värnhem</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> C</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>324</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>8</Name>
+                        <No>8</No>
+                        <JourneyDateTime>2020-01-11T11:34:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Lindängen via Gustav Adolfs torg</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> C</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>380</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>SkåneExpressen 1</Name>
+                        <No>401</No>
+                        <JourneyDateTime>2020-01-11T11:34:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>G</StopPoint>
+                        <LineTypeId>2</LineTypeId>
+                        <LineTypeName>SkåneExpressen</LineTypeName>
+                        <Towards>SkåneExpressen Kristianstad</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>116</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>2</Name>
+                        <No>2</No>
+                        <JourneyDateTime>2020-01-11T11:36:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>D</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Västra hamnen via Kockum Fritid</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> D</NewDepPoint>
+                                <DepTimeDeviation>2</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>319</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>3</Name>
+                        <No>3</No>
+                        <JourneyDateTime>2020-01-11T11:36:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>D</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Ringlinjen via Erikslust</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>331</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>5</Name>
+                        <No>5</No>
+                        <JourneyDateTime>2020-01-11T11:36:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>A</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Stenkällan via Rosengård</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations>
+                            <Deviation>
+                                <DeviationScopes>
+                                    <DeviationScope>
+                                        <ScopeAttribute>CONCERNS_ARRIVAL</ScopeAttribute>
+                                        <FromDateTime>2020-01-10T07:00:00</FromDateTime>
+                                        <ToDateTime>2020-01-31T15:00:00</ToDateTime>
+                                    </DeviationScope>
+                                </DeviationScopes>
+                                <PublicNote>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Sten</PublicNote>
+                                <Header>Stängd hållplats Malmö C läge D</Header>
+                                <Details />
+                                <Summary>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Stenkällan blir Anna Lindhs plats läge B. </Summary>
+                                <ShortText>Bussen stannar ej vid Malmö C pga vägarbete. Hänvisning till övr. hpl.
+Gäller 2020-01-10 kl 7:00 - 2020-01-31 kl 15:00.</ShortText>
+                                <Importance>3</Importance>
+                                <Influence>3</Influence>
+                                <Urgency>1</Urgency>
+                                <WebLinks />
+                            </Deviation>
+                        </Deviations>
+                        <RunNo>409</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>31</Name>
+                        <No>31</No>
+                        <JourneyDateTime>2020-01-11T11:36:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Jägersro via Värnhem</Towards>
+                        <FootNotes>
+                            <FootNote>
+                                <Index>v</Index>
+                                <Text>Går endast till Jägersro.</Text>
+                            </FootNote>
+                        </FootNotes>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>134</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>2</Name>
+                        <No>2</No>
+                        <JourneyDateTime>2020-01-11T11:37:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Kastanjegården via Gustav Adolfs torg</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>316</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>Pågatåg</Name>
+                        <No>815</No>
+                        <JourneyDateTime>2020-01-11T11:37:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint />
+                        <LineTypeId>32</LineTypeId>
+                        <LineTypeName>Pågatågen</LineTypeName>
+                        <Towards>Ystad</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint>1b</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>1531</TrainNo>
+                        <Deviations />
+                        <RunNo>531</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>7</Name>
+                        <No>7</No>
+                        <JourneyDateTime>2020-01-11T11:38:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>A</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Svågertorp via Gustav Adolfs torg</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> A</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>294</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>8</Name>
+                        <No>8</No>
+                        <JourneyDateTime>2020-01-11T11:41:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>E</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Hyllie</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> E</NewDepPoint>
+                                <DepTimeDeviation>3</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>373</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>Pågatåg</Name>
+                        <No>817</No>
+                        <JourneyDateTime>2020-01-11T11:41:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint />
+                        <LineTypeId>32</LineTypeId>
+                        <LineTypeName>Pågatågen</LineTypeName>
+                        <Towards>Helsingborg C</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint>3a</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>1714</TrainNo>
+                        <Deviations />
+                        <RunNo>714</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>4</Name>
+                        <No>4</No>
+                        <JourneyDateTime>2020-01-11T11:43:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>E</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Bunkeflostrand via Limhamn</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> E</NewDepPoint>
+                                <DepTimeDeviation>1</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>342</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>4</Name>
+                        <No>4</No>
+                        <JourneyDateTime>2020-01-11T11:43:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Bernstorp direkt Värnhem</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> C</NewDepPoint>
+                                <DepTimeDeviation>4</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>341</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>5</Name>
+                        <No>5</No>
+                        <JourneyDateTime>2020-01-11T11:43:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>D</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Västra hamnen via Dockan</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> D</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations>
+                            <Deviation>
+                                <DeviationScopes>
+                                    <DeviationScope>
+                                        <ScopeAttribute>CONCERNS_ARRIVAL</ScopeAttribute>
+                                        <FromDateTime>2020-01-10T07:00:00</FromDateTime>
+                                        <ToDateTime>2020-01-31T15:00:00</ToDateTime>
+                                    </DeviationScope>
+                                </DeviationScopes>
+                                <PublicNote>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Sten</PublicNote>
+                                <Header>Stängd hållplats Malmö C läge D</Header>
+                                <Details />
+                                <Summary>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Stenkällan blir Anna Lindhs plats läge B. </Summary>
+                                <ShortText>Bussen stannar ej vid Malmö C pga vägarbete. Hänvisning till övr. hpl.
+Gäller 2020-01-10 kl 7:00 - 2020-01-31 kl 15:00.</ShortText>
+                                <Importance>3</Importance>
+                                <Influence>3</Influence>
+                                <Urgency>1</Urgency>
+                                <WebLinks />
+                            </Deviation>
+                        </Deviations>
+                        <RunNo>412</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>7</Name>
+                        <No>7</No>
+                        <JourneyDateTime>2020-01-11T11:43:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>D</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Ön</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> D</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>297</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>3</Name>
+                        <No>3</No>
+                        <JourneyDateTime>2020-01-11T11:44:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Ringlinjen via Värnhem</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> C</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>326</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>8</Name>
+                        <No>8</No>
+                        <JourneyDateTime>2020-01-11T11:44:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Lindängen via Gustav Adolfs torg</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> C</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>382</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>3</Name>
+                        <No>3</No>
+                        <JourneyDateTime>2020-01-11T11:46:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>D</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Ringlinjen via Erikslust</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>333</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>5</Name>
+                        <No>5</No>
+                        <JourneyDateTime>2020-01-11T11:46:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>A</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Stenkällan via Rosengård</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations>
+                            <Deviation>
+                                <DeviationScopes>
+                                    <DeviationScope>
+                                        <ScopeAttribute>CONCERNS_ARRIVAL</ScopeAttribute>
+                                        <FromDateTime>2020-01-10T07:00:00</FromDateTime>
+                                        <ToDateTime>2020-01-31T15:00:00</ToDateTime>
+                                    </DeviationScope>
+                                </DeviationScopes>
+                                <PublicNote>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Sten</PublicNote>
+                                <Header>Stängd hållplats Malmö C läge D</Header>
+                                <Details />
+                                <Summary>P.g.a. vägarbete är Malmö C läge D stängt för linje 5 mellan 12/1 kl. 5.30-31/1 kl. 15.00. Under denna period får linje 5 i riktning mot Fullriggaren sluthållplats på Malmö C, vid ett tillfälligt läge på Norra Vallgatan. Starthållplats i riktning mot Stenkällan blir Anna Lindhs plats läge B. </Summary>
+                                <ShortText>Bussen stannar ej vid Malmö C pga vägarbete. Hänvisning till övr. hpl.
+Gäller 2020-01-10 kl 7:00 - 2020-01-31 kl 15:00.</ShortText>
+                                <Importance>3</Importance>
+                                <Influence>3</Influence>
+                                <Urgency>1</Urgency>
+                                <WebLinks />
+                            </Deviation>
+                        </Deviations>
+                        <RunNo>411</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>32</Name>
+                        <No>32</No>
+                        <JourneyDateTime>2020-01-11T11:47:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Käglinge</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>179</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>150</Name>
+                        <No>150</No>
+                        <JourneyDateTime>2020-01-11T11:47:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>I</StopPoint>
+                        <LineTypeId>1</LineTypeId>
+                        <LineTypeName>Regionbuss</LineTypeName>
+                        <Towards>Vellinge via Hyllie</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>123</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>7</Name>
+                        <No>7</No>
+                        <JourneyDateTime>2020-01-11T11:48:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>A</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Svågertorp via Gustav Adolfs torg</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>296</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>Öresundståg</Name>
+                        <No>803</No>
+                        <JourneyDateTime>2020-01-11T11:48:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint />
+                        <LineTypeId>128</LineTypeId>
+                        <LineTypeName>Öresundståg</LineTypeName>
+                        <Towards>Kalmar C</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint>4a</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>1042</TrainNo>
+                        <Deviations />
+                        <RunNo>42</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>146</Name>
+                        <No>146</No>
+                        <JourneyDateTime>2020-01-11T11:50:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>I</StopPoint>
+                        <LineTypeId>1</LineTypeId>
+                        <LineTypeName>Regionbuss</LineTypeName>
+                        <Towards>Trelleborg C</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>123</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>Pågatåg</Name>
+                        <No>817</No>
+                        <JourneyDateTime>2020-01-11T11:50:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint />
+                        <LineTypeId>32</LineTypeId>
+                        <LineTypeName>Pågatågen</LineTypeName>
+                        <Towards>Trelleborg C</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint>1b</NewDepPoint>
+                                <DepTimeDeviation>0</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>1715</TrainNo>
+                        <Deviations />
+                        <RunNo>715</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>2</Name>
+                        <No>2</No>
+                        <JourneyDateTime>2020-01-11T11:51:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>D</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Västra hamnen via Kockum Fritid</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> D</NewDepPoint>
+                                <DepTimeDeviation>2</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>321</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>8</Name>
+                        <No>8</No>
+                        <JourneyDateTime>2020-01-11T11:51:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>E</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Hyllie</Towards>
+                        <RealTime>
+                            <RealTimeInfo>
+                                <NewDepPoint> E</NewDepPoint>
+                                <DepTimeDeviation>2</DepTimeDeviation>
+                                <DepDeviationAffect>NON_CRITICAL</DepDeviationAffect>
+                            </RealTimeInfo>
+                        </RealTime>
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>375</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>2</Name>
+                        <No>2</No>
+                        <JourneyDateTime>2020-01-11T11:52:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Kastanjegården via Gustav Adolfs torg</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>318</RunNo>
+                    </Line>
+                    <Line>
+                        <Name>100</Name>
+                        <No>100</No>
+                        <JourneyDateTime>2020-01-11T11:52:00</JourneyDateTime>
+                        <IsTimingPoint>true</IsTimingPoint>
+                        <StopPoint>I</StopPoint>
+                        <LineTypeId>1</LineTypeId>
+                        <LineTypeName>Regionbuss</LineTypeName>
+                        <Towards>Falsterbo</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>167</RunNo>
+                    </Line>
+                </Lines>
+                <StopAreaData>
+                    <Name>Malmö C</Name>
+                    <X>6167946</X>
+                    <Y>1323245</Y>
+                </StopAreaData>
+            </GetDepartureArrivalResult>
+        </GetDepartureArrivalResponse>
+    </soap:Body>
+</soap:Envelope>

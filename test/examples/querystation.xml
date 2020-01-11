@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetStartEndPointResponse xmlns="http://www.etis.fskab.se/v1.0/ETISws">
+            <GetStartEndPointResult>
+                <Code>0</Code>
+                <Message />
+                <StartPoints>
+                    <Point>
+                        <Id>80103</Id>
+                        <Name>Malmö Kronprinsen</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6166894</X>
+                        <Y>1322152</Y>
+                    </Point>
+                </StartPoints>
+                <EndPoints>
+                    <Point>
+                        <Id>81216</Id>
+                        <Name>Lund C</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6178349</X>
+                        <Y>1335424</Y>
+                    </Point>
+                    <Point>
+                        <Id>80000</Id>
+                        <Name>Malmö C</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6167946</X>
+                        <Y>1323245</Y>
+                    </Point>
+                    <Point>
+                        <Id>83241</Id>
+                        <Name>Helsingborg C</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6217091</X>
+                        <Y>1306192</Y>
+                    </Point>
+                    <Point>
+                        <Id>93070</Id>
+                        <Name>Hässleholm C</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6227407</X>
+                        <Y>1373125</Y>
+                    </Point>
+                    <Point>
+                        <Id>87071</Id>
+                        <Name>Trelleborg C</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6141164</X>
+                        <Y>1332334</Y>
+                    </Point>
+                    <Point>
+                        <Id>85131</Id>
+                        <Name>Eslövs station</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6192662</X>
+                        <Y>1343376</Y>
+                    </Point>
+                    <Point>
+                        <Id>90042</Id>
+                        <Name>Kristianstad C</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6212714</X>
+                        <Y>1396899</Y>
+                    </Point>
+                    <Point>
+                        <Id>86239</Id>
+                        <Name>Ystads station</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6145979</X>
+                        <Y>1374683</Y>
+                    </Point>
+                    <Point>
+                        <Id>82000</Id>
+                        <Name>Landskrona Station</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6198394</X>
+                        <Y>1315481</Y>
+                    </Point>
+                    <Point>
+                        <Id>92010</Id>
+                        <Name>Ängelholms station</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6239216</X>
+                        <Y>1317073</Y>
+                    </Point>
+                    <Point>
+                        <Id>95006</Id>
+                        <Name>Göteborg C</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6404750</X>
+                        <Y>1271695</Y>
+                    </Point>
+                    <Point>
+                        <Id>13003</Id>
+                        <Name>Halmstad C</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6286320</X>
+                        <Y>1319740</Y>
+                    </Point>
+                    <Point>
+                        <Id>45007</Id>
+                        <Name>Köpenhamn H</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6176254</X>
+                        <Y>1296141</Y>
+                    </Point>
+                    <Point>
+                        <Id>10007</Id>
+                        <Name>Karlskrona C</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6226513</X>
+                        <Y>1486328</Y>
+                    </Point>
+                    <Point>
+                        <Id>78114</Id>
+                        <Name>Båstad station</Name>
+                        <Type>STOP_AREA</Type>
+                        <X>6259819</X>
+                        <Y>1321252</Y>
+                    </Point>
+                </EndPoints>
+            </GetStartEndPointResult>
+        </GetStartEndPointResponse>
+    </soap:Body>
+</soap:Envelope>

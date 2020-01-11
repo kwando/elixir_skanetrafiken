@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetDepartureArrivalResponse xmlns="http://www.etis.fskab.se/v1.0/ETISws">
+            <GetDepartureArrivalResult>
+                <Code>0</Code>
+                <Message />
+                <Lines>
+                    <Line>
+                        <Name>8</Name>
+                        <No>8</No>
+                        <JourneyDateTime>2020-01-11T10:58:00</JourneyDateTime>
+                        <IsTimingPoint>false</IsTimingPoint>
+                        <StopPoint>C</StopPoint>
+                        <LineTypeId>4</LineTypeId>
+                        <LineTypeName>Stadsbuss</LineTypeName>
+                        <Towards>Hyllie</Towards>
+                        <RealTime />
+                        <TrainNo>0</TrainNo>
+                        <Deviations />
+                        <RunNo>363</RunNo>
+                    </Line>
+                </Lines>
+                <StopAreaData>
+                    <Name>Malmö Kronprinsen</Name>
+                    <X>6166894</X>
+                    <Y>1322152</Y>
+                </StopAreaData>
+            </GetDepartureArrivalResult>
+        </GetDepartureArrivalResponse>
+    </soap:Body>
+</soap:Envelope>
