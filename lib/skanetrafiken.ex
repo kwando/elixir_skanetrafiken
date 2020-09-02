@@ -1,5 +1,6 @@
 defmodule Skanetrafiken do
   alias Skanetrafiken.Parser
+  require Logger
 
   def search_times(station) do
     with {:ok, %{body: body}} <-
@@ -13,11 +14,19 @@ defmodule Skanetrafiken do
   end
 
   def search_station(term) do
-    with {:ok, %{body: body}} <-
-           HTTPoison.get(
-             "http://www.labs.skanetrafiken.se/v2.2/querystation.asp?inpPointfr=#{term}"
-           ) do
-      Parser.parse_getstartendpointresult(body)
+    HTTPoison.get("http://www.labs.skanetrafiken.se/v2.2/querystation.asp?inpPointfr=#{term}")
+    |> case do
+      {:ok, %{body: body}} ->
+        try do
+          Parser.parse_getstartendpointresult(body)
+        catch
+          :exit, e ->
+            Logger.warn("malformed xml detected\n\n#{body}")
+            {:error, {:parse_error, e}}
+        end
+
+      error ->
+        error
     end
   end
 
